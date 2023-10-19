@@ -1,9 +1,9 @@
 id: io.github.bothlab.syntalos
 runtime: org.kde.Platform
-runtime-version: 5.15-22.08
+runtime-version: 5.15-23.08
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-22.08
+base-version: 5.15-23.08
 separate-locales: false
 
 command: syntalos
@@ -30,7 +30,7 @@ cleanup-commands:
 add-extensions:
   org.freedesktop.Platform.GL:
     directory: lib/GL
-    version: '22.08'
+    version: '23.08'
     subdirectories: true
     add-ld-path: lib
     merge-dirs: vulkan/icd.d;glvnd/egl_vendor.d
